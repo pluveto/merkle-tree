@@ -1,5 +1,7 @@
 # Merkle Tree
 
+[中文介绍](README.zh-CN.md)
+
 This library implements the Merkle tree data structure, which can be used for Merkle proofs, block verification, etc.
 
 ## Features
