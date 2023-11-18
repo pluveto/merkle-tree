@@ -2,6 +2,8 @@
 
 This library implements the Merkle tree data structure, which can be used for Merkle proofs, block verification, etc.
 
+This project mainly for learning and reference. Note that the code is not optimized for production use, Note that `content` field of tree node definition should be removed to avoid performance issue. You need to carefully review the code and test it before using it in production.
+
 ## Features
 
 - Build and validate Merkle trees
