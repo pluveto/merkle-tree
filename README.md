@@ -31,10 +31,6 @@ proof = tree.get_proof(block_hash)
 
 ## API Documentation
 
-这里对API Documentation部分加上了函数原型:
-
-## API Documentation
-
 ### MerkleTree
 
 - Initialize tree structure
