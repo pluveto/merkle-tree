@@ -1,0 +1,20 @@
+# Python-specific ignore patterns
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore virtual environment files
+venv/
+env/
+env.bak/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
