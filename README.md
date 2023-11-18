@@ -1,5 +1,7 @@
 # Merkle Tree
 
+[中文介绍](README.zh-CN.md)
+
 This library implements the Merkle tree data structure, which can be used for Merkle proofs, block verification, etc.
 
 This project mainly for learning and reference. Note that the code is not optimized for production use, Note that `content` field of tree node definition should be removed to avoid performance issue. You need to carefully review the code and test it before using it in production.
@@ -30,10 +32,6 @@ tree.verify_block(root_hash, block_hash)
 location = tree.get_location(block_hash)
 proof = tree.get_proof(block_hash)
 ```
-
-## API Documentation
-
-这里对API Documentation部分加上了函数原型:
 
 ## API Documentation
 
